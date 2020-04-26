@@ -18,7 +18,7 @@ title_separator: "-"
 email:
 description: Build, fail, learn, build 
 url: "https://anuprk.github.io"
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 repository: "anuprk/anuprk.github.io"
 search: false
 #google_site_verification: "KbUN2yK33xTFIQa6xopl2QZyG02prTwsPwnCTjRRYMM"

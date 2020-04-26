@@ -50,13 +50,13 @@ Yelp API https://www.yelp.com/fusion has all the details. We get following infor
 ## Data Cleaning
 
 Foursquare restaurants:  
-![img](/blog/images/datascience-sf1.png)
+![img](/images/datascience-sf1.png)
 
 Yelp restaurants:  
-![img](/blog/images/datascience-sf-yelp.png)
+![img](/images/datascience-sf-yelp.png)
 
 Quick overview of various categories of restaurants:  
-![img](/blog/images/datascience-category.png)
+![img](/images/datascience-category.png)
 
 Following data cleaning was required
 
@@ -80,7 +80,7 @@ San Francisco has a large number of restaurants. The largest type of restaurants
 
 Surprisingly the second largest category is Japanese Restaurants. This was not expected. 
 
-![img](/blog/images/datascience-category-bar.png)
+![img](/images/datascience-category-bar.png)
 
 ## Rating
 
@@ -88,23 +88,23 @@ We have plotted ratings on x-axis and number of restaurants on y-axis. I am usin
 
 Lets look at ratings for these restaurants. Majority of the restaurants have good ratings like 4.0 and above. Those are shown in green color.
 
-![img](/blog/images/datascience-rating.png)
+![img](/images/datascience-rating.png)
 
 ## Clustering
 
 Finally I have clustered various restaurants. 
 
-![img](/blog/images/datascience-clustering.png)
+![img](/images/datascience-clustering.png)
 
 Above map shows both clusters mapped. 
 
 - The first cluster is shown in green dot. It has more elements and spread across the map. 
 
-![img](/blog/images/datascience-cluster-0.png)
+![img](/images/datascience-cluster-0.png)
 
 - Second cluster is shown in red dot. Its more concentrated in downtown area of San Francisco.
 
-![img](/blog/images/datascience-cluster-1.png)
+![img](/images/datascience-cluster-1.png)
 
 # Observation and Discussion
 

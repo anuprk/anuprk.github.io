@@ -1,39 +1,42 @@
-# Anup's blog
+# Chase's Blog
 
-## Blog Installation using Jekyll and Github
-I have moved my blog from blogger to github/jekyll. Some installation tips on mac if you are new to jekyll. 
+## Install
+
+See: https://jekyllrb.com/docs/quickstart/
 
 ```bash
-brew update 
 brew install rbenv ruby-build
-```
-
-I am using rbenv. I moved from rvm to rbenv. I like *shim* concept and makes life a lot easier. But you may want to continue with rvm.
-
-```bash
-rbenv init # You may want to add this to your .bashrc so the env is initialized every time you open new terminal
-rbenv install 2.7.1 # Go for latest ruby. 
+echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
+source ~/.bash_profile
+rbenv install 2.5.1
 rbenv global 2.5.1
 ruby -v
-# You shoud see output as follows
->ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-darwin19]
+# open new terminal
+gem install jekyll bundler
+bundle install
 ```
 
-Follow more details on rbenv [here]( https://github.com/rbenv/rbenv )
+## Trouble-shooting
 
 ```bash
-gem install jekyll bundler
-# go to directory where you want to create site.
-cd mysite
-jekyll new blog
-cd blog
-bundle exec jekyll serve
+brew update && brew upgrade
+brew doctor
+brew uninstall --force ruby
+brew install ruby
+# close and reopen terminal
 ```
-You should see jekyll up at http://localhost:4000
 
+Big guns:
 
+```bash
 
+sudo chown -R $(whoami) /usr/local/lib/ruby/*
+sudo chown -R $(whoami) /Library/Ruby/Gems/2.0.0
+brew link ruby
+```
 
+## Run the server
 
-
-
+```bash
+make server
+```

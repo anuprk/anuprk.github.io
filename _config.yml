@@ -1,0 +1,101 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Anup Katariya Blog
+title_separator: "-"
+email:
+description: Build, fail, learn, build 
+url: "https://anuprk.github.io"
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+repository: "anuprk/anuprk.github.io"
+search: false
+#google_site_verification: "KbUN2yK33xTFIQa6xopl2QZyG02prTwsPwnCTjRRYMM"
+
+author:
+  name   : "Anup Katariya"
+  #avatar : "/images/chase-square.jpg"
+  location: "San Ramon, CA"
+  bio    : Director, Engineering at Integral
+  email  : # optional
+  twitter: anupkatariya
+  linkedin: anupkatariya
+  github: anuprk
+
+# social sharing
+twitter:
+  username: "anupkatariya"
+
+  #analytics:
+  #provider: "google-gtag"
+  #google:
+  # tracking_id: "UA-34759164-2"
+  #  anonymize_ip: false # default
+
+  #search                   : true
+  #search_full_content      : true
+  #search_provider          : google
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: false
+      related: false
+      toc_label: "On this page"
+  -
+    scope:
+      path: "files" # path to href is /blog/files/foo.pdf
+    values:
+      image: true
+
+# Build settings
+markdown: kramdown
+#theme: minima
+remote_theme: "mmistakes/minimal-mistakes"
+#theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+#paginate: 10
+#paginate_path: /page:num/
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+plugins:
+        #  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

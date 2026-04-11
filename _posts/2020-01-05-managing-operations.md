@@ -1,5 +1,7 @@
 ---
-title : Managing Operations
+title: Managing Operations
+categories: [Management]
+tags: [manager, operations]
 ---
 
 I was given charge of managing operations. I am coming from development  

@@ -1,6 +1,7 @@
 ---
-toc: true
-toc_label: "On this page"
+title: Data Science Capstone Project
+categories: [Data Science]
+tags: [datascience, python]
 ---
 
 As a part of Coursera IBM data science professional certificate course, I studied data science using Python. This course helped understand what is data-science, what a data-scientist do and what are various tools and techniques required one has to understand in order to analyze various datasets. 

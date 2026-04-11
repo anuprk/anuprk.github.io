@@ -1,12 +1,8 @@
 ---
 title: "AI Teammates and the Manager's Dilemma"
-tags: manager ai agents
-toc: true
-header:
-  overlay_image: /images/header-alameda-beach.jpg
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-excerpt: "Companies are calling AI agents 'teammates' now. What does that actually mean for the people managing the team?"
+description: "Companies are calling AI agents 'teammates' now. What does that actually mean for the people managing the team?"
+categories: [Management]
+tags: [manager, ai, agents]
 ---
 
 When Asana announced "AI Teammates" built on [Claude Managed Agents](https://claude.com/blog/claude-managed-agents), the word "teammate" stuck in my head. I've managed engineering teams for a while, and that word means something specific to me. A teammate picks up a task, flags when they're stuck, and tells you in standup that they finished the thing but found a problem with the thing next to it. Calling an AI agent a "teammate" blurs a line I think we should keep sharp.

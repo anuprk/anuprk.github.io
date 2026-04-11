@@ -1,5 +1,7 @@
 ---
-title : Odd even jump
+title: Odd even jump
+categories: [Programming]
+tags: [programming, algorithms]
 ---
 
 ## Problem Definitation

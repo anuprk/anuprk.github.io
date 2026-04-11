@@ -1,17 +1,14 @@
+# frozen_string_literal: true
+
 source "https://rubygems.org"
 
-# Use the github-pages gem to match GitHub Pages dependency versions exactly.
-# See https://pages.github.com/versions/ for current versions.
-gem "github-pages", group: :jekyll_plugins
+gem "jekyll-theme-chirpy", "~> 7.5"
 
-group :jekyll_plugins do
-  gem "jekyll-feed"
-  gem "jekyll-remote-theme"
-  gem "jekyll-paginate"
-  gem "jekyll-redirect-from"
-  gem "jekyll-sitemap"
-  gem "jekyll-include-cache"
+gem "html-proofer", "~> 5.0", group: :test
+
+platforms :windows, :jruby do
+  gem "tzinfo", ">= 1", "< 3"
+  gem "tzinfo-data"
 end
 
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem "wdm", "~> 0.2.0", :platforms => [:windows]

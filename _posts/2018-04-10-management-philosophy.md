@@ -1,5 +1,7 @@
 ---
-title : My management philosophy
+title: My management philosophy
+categories: [Management]
+tags: [manager]
 ---
 
 ## Basic Principals

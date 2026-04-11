@@ -1,5 +1,7 @@
 ---
-title : Sliding Window Protocol
+title: Sliding Window Protocol
+categories: [Programming]
+tags: [programming, algorithms]
 ---
 
 One of most asked question on sliding window algorithm is "Fruits in Basket" problem.  

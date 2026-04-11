@@ -1,4 +1,4 @@
-# Chase's Blog
+# Anup's Blog
 
 ## Install
 
